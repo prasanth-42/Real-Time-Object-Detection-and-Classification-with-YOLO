@@ -1,0 +1,86 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FBE9D0;
+    margin-left: 7cap;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Main heading style */
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: -2cm;
+}
+
+/* Container for forms and buttons */
+.container {
+    display: flex;
+    flex-direction: row; /* Aligns forms horizontally */
+    justify-content: flex-start; /* Aligns forms to the left */
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Max width for the container */
+    margin-top: 20px;
+    gap: 20px; /* Adds space between the forms */
+}
+
+/* Styling the forms */
+form {
+    background-color: #fe977d;
+    padding: 30px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px; /* Adjust form width */
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styling buttons */
+button {
+    background-color: #E64833;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fd8e7f;
+}
+
+/* Styling file input */
+input[type="file"] {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Styling for the live webcam button */
+form .live-button {
+    background-color: #E64833;
+    margin-top: 68px;
+}
+
+form .live-button:hover {
+    background-color: #fd8e7f;
+}
